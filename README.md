@@ -1,4 +1,4 @@
-# Animated Website
+# Ahead App Webpage Density Assignment
 
 This is a clone webpage of ahead app built using React and several animation libraries like Framer Motion and React Lottie.
 
