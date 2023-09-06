@@ -63,3 +63,57 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+/* Media query for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .self-awareness-test-item h5 {
+    font-size: 18px;
+  }
+
+  .self-awareness-test-item h2 {
+    font-size: 28px;
+  }
+
+  .self-awareness-test-item .animate-text h3 {
+    font-size: 14px;
+  }
+
+  .self-awareness-test-item .team-signature {
+    font-size: 16px;
+  }
+
+  .self-awareness-test-item button {
+    font-size: 18px;
+  }
+
+  .self-awareness-test-item p {
+    font-size: 14px;
+  }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  .self-awareness-test-item h5 {
+    font-size: 16px;
+  }
+
+  .self-awareness-test-item h2 {
+    font-size: 24px;
+  }
+
+  .self-awareness-test-item .animate-text h3 {
+    font-size: 12px;
+  }
+
+  .self-awareness-test-item .team-signature {
+    font-size: 14px;
+  }
+
+  .self-awareness-test-item button {
+    font-size: 16px;
+  }
+
+  .self-awareness-test-item p {
+    font-size: 12px;
+  }
+}

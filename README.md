@@ -1,6 +1,8 @@
 # Animated Website
 
-This is a nice animated website built using React and several animation libraries like Framer Motion and React Lottie.
+This is a clone webpage of ahead app built using React and several animation libraries like Framer Motion and React Lottie.
+
+## Live Link
 
 ## Features
 
@@ -21,6 +23,8 @@ This is a nice animated website built using React and several animation librarie
 1. Start the development server
 
 2. Open your web browser and visit http://localhost:3000 to see the website in action.
+
+## Screenshots
 
 ## Libraries Used
 

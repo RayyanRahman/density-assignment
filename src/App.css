@@ -163,3 +163,39 @@ a {
     padding: 5px 5%;
   }
 }
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  /* Navbar styles */
+  .navbar {
+    flex-direction: row; /* Display items in a row */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically align items */
+  }
+
+  /* Logo styles */
+  .logo {
+    width: 80px;
+  }
+
+  /* Navbar list styles */
+  .navbar-list {
+    gap: 5px;
+    flex-direction: row; /* Display list items in a row */
+  }
+
+  .navbar-list li a {
+    font-size: 14px;
+  }
+
+  /* Download button styles */
+  .download-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  /* Section container styles */
+  .sections-container {
+    padding: 5px 5%;
+  }
+}
