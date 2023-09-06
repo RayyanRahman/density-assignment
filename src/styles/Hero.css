@@ -61,3 +61,60 @@
   font-size: 13px;
   margin-top: 5px;
 }
+
+/* Media query for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .left-section {
+    text-align: center;
+  }
+
+  .left-section h1 {
+    font-size: 28px;
+  }
+
+  .download-app {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .download-app img {
+    margin-bottom: 10px;
+  }
+
+  .stars-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .stars-reviews h6 {
+    font-size: 14px;
+  }
+
+  .right-section {
+    display: none; /* Hide the animation on medium-sized screens */
+  }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  .left-section h1 {
+    font-size: 24px;
+  }
+
+  .download-app img {
+    width: 100px;
+    height: 36px;
+  }
+
+  .stars-reviews {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .stars-reviews h6 {
+    font-size: 12px;
+  }
+}

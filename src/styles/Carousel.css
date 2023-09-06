@@ -160,3 +160,50 @@
   margin-bottom: -85px;
   margin-left: 20px;
 }
+
+/* Media query for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .section-one {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .section-one h2 {
+    font-size: 28px;
+  }
+
+  .section-one .two {
+    font-size: 16px;
+  }
+
+  .section-one .three {
+    font-size: 14px;
+  }
+
+  .section-two .text-logo h1 {
+    font-size: 36px;
+  }
+
+  .cards-container .carousel {
+    flex-direction: column;
+  }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  .section-one h2 {
+    font-size: 24px;
+  }
+
+  .section-one .two {
+    font-size: 14px;
+  }
+
+  .section-one .three {
+    font-size: 12px;
+  }
+
+  .section-two .text-logo h1 {
+    font-size: 24px;
+  }
+}

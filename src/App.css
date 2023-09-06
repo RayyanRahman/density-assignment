@@ -95,3 +95,71 @@ a {
 .sections-container::-webkit-scrollbar {
   display: none;
 }
+
+/* Media query for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  /* Navbar styles */
+  .navbar {
+    padding: 10px 5%;
+  }
+
+  /* Logo styles */
+  .logo {
+    width: 100px;
+  }
+
+  /* Navbar list styles */
+  .navbar-list {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .navbar-list li a {
+    font-size: 16px;
+  }
+
+  /* Download button styles */
+  .download-button {
+    padding: 8px 16px;
+  }
+
+  /* Section container styles */
+  .sections-container {
+    padding: 10px 5%;
+  }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  /* Navbar styles */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Logo styles */
+  .logo {
+    width: 80px;
+  }
+
+  /* Navbar list styles */
+  .navbar-list {
+    gap: 5px;
+  }
+
+  .navbar-list li a {
+    font-size: 14px;
+  }
+
+  /* Download button styles */
+  .download-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  /* Section container styles */
+  .sections-container {
+    padding: 5px 5%;
+  }
+}
